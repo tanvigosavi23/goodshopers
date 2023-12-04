@@ -13,6 +13,7 @@ import { SpinnerComponent } from './components/spinner/spinner.component';
     HttpClientModule
   ],
   providers:[
+    { provide: HTTP_INTERCEPTORS, useClass: tokenInterceptor, multi: true },
     {
       provide: HTTP_INTERCEPTORS, useClass: loaderInterceptor, multi: true
     }

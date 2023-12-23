@@ -9,7 +9,8 @@ import { CoreModule } from './core/core.module';
 import { FormsModule,ReactiveFormsModule } from '@angular/forms';
 import { ToastrModule } from 'ngx-toastr'
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-
+import { SharedModule } from './shared/shared.module';
+import { HomeModule } from './home/home.module';
 @NgModule({
   declarations: [
     AppComponent
@@ -23,6 +24,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     ReactiveFormsModule,
     BrowserAnimationsModule,
     ToastrModule.forRoot(),
+    SharedModule,
+    HomeModule
   ],
   providers: [
     provideClientHydration()

@@ -17,6 +17,12 @@ import { ProductPaymentComponent } from './product-payment/product-payment.compo
 import { CustomerProfileComponent } from './customer-profile/customer-profile.component';
 import { OurBestProductsComponent } from './our-best-products/our-best-products.component';
 import { SharedModule } from '../shared/shared.module';
+import { OurTeamComponent } from './our-team/our-team.component';
+import { UniversalPageComponent } from './universal-page/universal-page.component';
+import { CustomerCartComponent } from './customer-cart/customer-cart.component';
+import { ContactUsComponent } from './contact-us/contact-us.component';
+import { OurLocationsComponent } from './our-locations/our-locations.component';
+import { NewsDetailsComponent } from './news-details/news-details.component';
 
 @NgModule({
   declarations: [
@@ -33,7 +39,13 @@ import { SharedModule } from '../shared/shared.module';
     ProductShippingComponent,
     ProductPaymentComponent,
     CustomerProfileComponent,
-    OurBestProductsComponent
+    OurBestProductsComponent,
+    OurTeamComponent,
+    UniversalPageComponent,
+    CustomerCartComponent,
+    ContactUsComponent,
+    OurLocationsComponent,
+    NewsDetailsComponent
   ],
   imports: [
     CommonModule,

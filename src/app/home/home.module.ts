@@ -53,7 +53,8 @@ import { NewsDetailsComponent } from './news-details/news-details.component';
     SharedModule
   ],
   exports:[
-    HomeComponent
+    HomeComponent,
+    OurPartnersComponent
   ]
 })
 export class HomeModule { }
